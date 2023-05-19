@@ -1,0 +1,76 @@
+body {
+  background-color: #0f0909;
+  background-repeat:round;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+nav {
+
+  padding: 64px;
+  
+ 
+}
+
+.logo {
+  text-align: center;
+}
+
+.feliz {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px ;
+  font-size: 20px;
+}
+
+.memory {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-bottom: #bebebf dashed 1px;
+}
+
+.memory small {
+  color: #bebebf;
+  font-size: 12px;
+}
+.memory h1 {
+  font-size: 32px;
+  color: #ffa8c5;
+}
+
+.memory h1:hover {
+  color: #a0516e;
+  text-decoration:underline;
+}
+
+.memory img {
+  width:100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: #d07c9a solid 5px;
+}
+
+.memory p {
+  font-size: 18px;
+  color: #bebebf;
+  line-height: 28px;
+}
+
+.memory p spam {
+  color: red;
+}
+
+.footer img  {
+
+  width: 100%;
+  height: 200px;
+}
+.footer .txt {
+  font-size: 20px;
+  color: #d07c9a;
+  text-align: center;
+}
